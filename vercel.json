@@ -3,6 +3,7 @@
     { "source": "/", "destination": "https://walkingwithrobots.com", "permanent": false }
   ],
   "rewrites": [
-    { "source": "/disco/:path*", "destination": "https://discovery-app-omega.vercel.app/:path*" }
+    { "source": "/disco", "destination": "https://discovery-app-omega.vercel.app/" },
+    { "source": "/disco/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" }
   ]
 }
