@@ -4,6 +4,8 @@
   ],
   "rewrites": [
     { "source": "/disco", "destination": "https://discovery-app-omega.vercel.app/" },
-    { "source": "/disco/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" }
+    { "source": "/disco/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" },
+    { "source": "/next-steps", "destination": "https://discovery-app-omega.vercel.app/" },
+    { "source": "/next-steps/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" }
   ]
 }
