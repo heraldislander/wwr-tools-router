@@ -8,6 +8,8 @@
     { "source": "/next-steps", "destination": "https://discovery-app-omega.vercel.app/" },
     { "source": "/next-steps/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" },
     { "source": "/phase-one", "destination": "https://discovery-app-omega.vercel.app/" },
-    { "source": "/phase-one/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" }
+    { "source": "/phase-one/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" },
+    { "source": "/preso", "destination": "https://discovery-app-omega.vercel.app/" },
+    { "source": "/preso/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" }
   ]
 }
