@@ -13,6 +13,8 @@
     { "source": "/findings/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" },
     { "source": "/findings-content/(.*)", "destination": "https://discovery-app-omega.vercel.app/findings-content/$1" },
     { "source": "/preso", "destination": "https://discovery-app-omega.vercel.app/" },
-    { "source": "/preso/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" }
+    { "source": "/preso/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" },
+    { "source": "/scope", "destination": "https://discovery-app-omega.vercel.app/" },
+    { "source": "/scope/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" }
   ]
 }
