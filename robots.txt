@@ -1,0 +1,13 @@
+# tools.walkingwithrobots.com
+#
+# Client-facing decks (proposals, findings, scope, etc.) are kept OUT of search
+# indexes via an `X-Robots-Tag: noindex` response header on the deck and config
+# paths (see vercel.json), NOT via Disallow.
+#
+# Crawling is intentionally ALLOWED so that a crawler fetches those paths, sees
+# the noindex header, and drops them from the index even if a link ever leaks.
+# Do NOT add Disallow rules for /next-steps, /disco, /findings, /scope, etc. —
+# a Disallow stops the crawler fetching the page, so it never sees the noindex
+# and a linked URL could still be indexed as a bare result.
+User-agent: *
+Disallow:

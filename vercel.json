@@ -16,5 +16,20 @@
     { "source": "/preso/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" },
     { "source": "/scope", "destination": "https://discovery-app-omega.vercel.app/" },
     { "source": "/scope/(.*)", "destination": "https://discovery-app-omega.vercel.app/$1" }
+  ],
+  "headers": [
+    { "source": "/next-steps", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/next-steps/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/disco", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/disco/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/phase-one", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/phase-one/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/findings", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/findings/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/findings-content/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/preso", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/preso/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/scope", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] },
+    { "source": "/scope/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] }
   ]
 }
